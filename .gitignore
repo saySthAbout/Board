@@ -11,4 +11,5 @@
 *.idea
 *.class
 build/
-out/	
+out/
+out/*	
