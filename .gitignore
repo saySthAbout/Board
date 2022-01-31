@@ -12,4 +12,6 @@
 *.class
 build/
 out/
-out/*	
+out/*
+out/production/
+out/production/*	
