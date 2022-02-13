@@ -15,7 +15,6 @@ import javax.servlet.http.HttpSession;
 @RequiredArgsConstructor
 @Controller
 public class indexController {
-
     private final PostsService postsService;
     private final HttpSession httpSession;
 
