@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - openjdk8
+  - jdk8
 
 branches:
   only:
@@ -20,4 +20,3 @@ notifications:
     recipients:
       saysthabout@gmail.com
 
-  
