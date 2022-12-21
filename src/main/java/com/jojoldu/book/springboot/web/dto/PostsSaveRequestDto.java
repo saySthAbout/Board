@@ -1,6 +1,7 @@
 package com.jojoldu.book.springboot.web.dto;
 
 import com.jojoldu.book.springboot.domain.posts.Posts;
+import com.jojoldu.book.springboot.domain.user.Role;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,6 +24,7 @@ public class PostsSaveRequestDto {
                 .title(title)
                 .content(content)
                 .author(author)
+                .role(Role.USER)
                 .build();
     }
 }
