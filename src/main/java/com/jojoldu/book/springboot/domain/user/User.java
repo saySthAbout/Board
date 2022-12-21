@@ -28,7 +28,7 @@ public class User extends BaseTimeEntity {
     private String picture;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false, columnDefinition = "varchar(32) default 'USER'")
+    @Column(nullable = false, columnDefinition = " default 'USER'")
     private Role role;
 
     @Builder
