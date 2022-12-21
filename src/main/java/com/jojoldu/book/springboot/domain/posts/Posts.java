@@ -25,16 +25,11 @@ public class Posts extends BaseTimeEntity {
 
     private String author;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
-    private Role role;
-
     @Builder
-    public Posts(String title, String content, String author, Role role){
+    public Posts(String title, String content, String author){
         this.title = title;
         this.content = content;
         this.author = author;
-        this.role = role;
     }
 
     public void update(String title, String content){

@@ -24,7 +24,6 @@ public class PostsSaveRequestDto {
                 .title(title)
                 .content(content)
                 .author(author)
-                .role(Role.USER)
                 .build();
     }
 }
