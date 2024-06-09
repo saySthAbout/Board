@@ -22,7 +22,7 @@ public class indexController {
     public String index(Model model, @LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());
         if(user != null){
-            model.addAttribute("googleName", user.getName());
+            model.addAttribute("userName", user.getName());
             System.out.println("name = " + user.getName());
         }
         return "index";
